@@ -19,6 +19,7 @@ func main() {
 	fmt.Println(x)
 
 	z:= make([]int, 5, 50)
+	z = []int{1,5,7,9,8}
 	fmt.Println(z)
 	fmt.Println(len(z))
 	fmt.Println(cap(z))
